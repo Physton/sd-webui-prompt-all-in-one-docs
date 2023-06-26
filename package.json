@@ -11,7 +11,6 @@
   "author": "Physton",
   "license": "MIT",
   "devDependencies": {
-    "@vuepress/client": "^2.0.0-beta.63",
     "@vuepress/plugin-back-to-top": "^2.0.0-beta.63",
     "vuepress": "^2.0.0-beta.63",
     "vuepress-plugin-copy-code2": "^2.0.0-beta.228",
