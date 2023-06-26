@@ -38,7 +38,7 @@
                     <li>
                         {{ getLang('help') }}:
                         <ul v-for="item in apiItem.help" class="help-list">
-                            <li v-if="!item.url.includes('prompt-all-in-one')" class="help-item"><a :href="item.url" target="_blank">[?] {{ item.title }}</a></li>
+                            <li v-if="!item.title.includes('prompt-all-in-one')" class="help-item"><a :href="item.url" target="_blank">[?] {{ item.title }}</a></li>
                         </ul>
                     </li>
                     <li>
