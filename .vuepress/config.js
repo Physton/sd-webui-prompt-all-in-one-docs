@@ -92,8 +92,8 @@ export default {
     theme: defaultTheme({
         selectLanguageText: '🌏Languages / Язык / 语言 / 語言',
         editLink: false,
-        docsRepo: 'Physton/sd-webui-prompt-all-in-one-assets',
-        docsDir: 'docs/src',
+        docsRepo: 'Physton/sd-webui-prompt-all-in-one-docs',
+        docsDir: '/',
         lastUpdated: true,
         locales: {
             '/': {

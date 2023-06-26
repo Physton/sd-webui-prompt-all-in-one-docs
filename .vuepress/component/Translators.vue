@@ -96,7 +96,9 @@ export default {
                     "free.tencent": "Free 5 million characters per month",
                     "free.niutrans": "Requires check-in to claim",
                     "free.caiyun": "Free 1 million characters per month",
-                    "free.volcengine": "Free 2 million characters per month"
+                    "free.volcengine": "Free 2 million characters per month",
+                    "free.iflytekV1": "Free 2 million characters per year",
+                    "free.iflytekV2": "Free 2 million characters per year",
                 },
                 "ru": {
                     "need_api_key": "API-ключ необходим",
@@ -123,7 +125,9 @@ export default {
                     "free.tencent": "Бесплатно 5 миллионов символов в месяц",
                     "free.niutrans": "Требуется регистрация для получения",
                     "free.caiyun": "Бесплатно 1 миллион символов в месяц",
-                    "free.volcengine": "Бесплатно 2 миллиона символов в месяц"
+                    "free.volcengine": "Бесплатно 2 миллиона символов в месяц",
+                    "free.iflytekV1": "Бесплатно 2 миллиона символов в год",
+                    "free.iflytekV2": "Бесплатно 2 миллиона символов в год",
                 },
                 "zh-CN": {
                     "need_api_key": "需要API Key",
@@ -151,6 +155,8 @@ export default {
                     "free.niutrans": "需签到领取",
                     "free.caiyun": "每月免费100万字符",
                     "free.volcengine": "每月免费200万字符",
+                    "free.iflytekV1": "每年免费200万字符",
+                    "free.iflytekV2": "每年免费200万字符",
                 },
                 "zh-TW": {
                     "need_api_key": "需要API Key",
@@ -177,7 +183,9 @@ export default {
                     "free.tencent": "每月免費500萬字符",
                     "free.niutrans": "需簽到領取",
                     "free.caiyun": "每月免費100萬字符",
-                    "free.volcengine": "每月免費200萬字符"
+                    "free.volcengine": "每月免費200萬字符",
+                    "free.iflytekV1": "每年免費200萬字符",
+                    "free.iflytekV2": "每年免費200萬字符",
                 }
             },
         }
