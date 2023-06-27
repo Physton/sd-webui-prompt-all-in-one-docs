@@ -60,11 +60,11 @@ View: [Offline Translation](/OfflineTranslation.md)
 
 3. You can use Excel to open the CSV file and check whether the content format is correct. The correct format is as follows:
 
-    | Number | English | Your Language (here is Chinese as an example) |
-    | :---: | :---: | :---: |
-    | 1 | 1girl | 1女孩 |
-    | 2 | 1boy | 1男孩 |
-    | ... | ... | ... |
+    | English | Your Language (here is Chinese as an example) |
+    | :---: | :---: |
+    | 1girl | 1女孩 |
+    | 1boy | 1男孩 |
+    | ... | ... |
 
     ![](./assets/images/TranslationApiConfiguration/csv.png)
 
