@@ -17,6 +17,7 @@
     "vuepress-plugin-full-text-search2": "^0.4.0",
     "vuepress-plugin-md-enhance": "^2.0.0-beta.228",
     "vuepress-plugin-search-pro": "^2.0.0-beta.228",
+    "vuepress-plugin-sitemap2": "^2.0.0-beta.228",
     "@vuepress/client": "^2.0.0-beta.63"
   }
 }

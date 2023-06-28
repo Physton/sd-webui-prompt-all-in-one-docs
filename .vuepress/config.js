@@ -5,6 +5,7 @@ import {searchProPlugin} from "vuepress-plugin-search-pro"
 import {copyCodePlugin} from "vuepress-plugin-copy-code2"
 import {mdEnhancePlugin} from "vuepress-plugin-md-enhance"
 import fullTextSearchPlugin from "vuepress-plugin-full-text-search2"
+import {sitemapPlugin} from "vuepress-plugin-sitemap2"
 
 import fs from 'fs'
 import path from 'path'
@@ -36,7 +37,10 @@ export default {
             // 启用幻灯片
             presentation: true,
         }),
-        fullTextSearchPlugin()
+        fullTextSearchPlugin(),
+        sitemapPlugin({
+            hostname: 'aiodoc.physton.com'
+        })
     ],
     async onPrepared(app) {
         const translate_apis = JSON.parse(fs.readFileSync(path.resolve(__dirname, 'translate_apis.json'), 'utf8'))
@@ -91,7 +95,7 @@ export default {
     },
     theme: defaultTheme({
         selectLanguageText: '🌏Languages / Язык / 语言 / 語言',
-        editLink: false,
+        editLink: true,
         docsRepo: 'Physton/sd-webui-prompt-all-in-one-docs',
         docsDir: '/',
         lastUpdated: true,

@@ -77,7 +77,3 @@
 ### Q: Why were there two translation buttons before and now there is only one?
 
 > Now in some languages such as Chinese, Japanese, Korean, etc., the system supports automatic recognition of whether you are inputting English or your local language. Therefore, the previous "Translate to English" and "Translate to Local Language" buttons have been merged into one. Whether you input in English or your local language, it will be automatically recognized and translated accordingly.
-
-### Q: Why does this extension not have a version number and update description?
-
-> This is because the author is too lazy. This extension has not been online for long, and new features are being developed and bugs are being fixed every day. A large number of update logs are too cumbersome. So please keep updating and explore new features by yourself!
