@@ -11,14 +11,19 @@
 > 這是由於webui啟動時，沒有正確的安裝依賴導致的，可以通過以下方式解決：
 > 1. 切換到webui所使用的python/bin目錄。
 > 2. 執行命令：
-     >    ```
-     > ./python -m pip install chardet
-     > ./python -m pip install translators
-     > ./python -m pip install openai
-     > ./python -m pip install boto3
-     > ./python -m pip install aliyun-python-sdk-core
-     > ./python -m pip install aliyun-python-sdk-alimt
-     >    ```
+>    ```
+>    ./python -m pip install chardet
+>    ./python -m pip install fastapi
+>    ./python -m pip install PyExecJS
+>    ./python -m pip install lxml
+>    ./python -m pip install tqdm
+>    ./python -m pip install pathos
+>    ./python -m pip install cryptography
+>    ./python -m pip install openai
+>    ./python -m pip install boto3
+>    ./python -m pip install aliyun-python-sdk-core
+>    ./python -m pip install aliyun-python-sdk-alimt
+>    ```
 > 3. 等待安裝完成後，重啟webui。
 > 
 > 詳情請見：[安裝套件](/zh-TW/InstallationPackages.md)

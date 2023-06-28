@@ -11,14 +11,19 @@
 > Это происходит из-за неправильной установки зависимостей при запуске веб-интерфейса. Вы можете решить эту проблему следующим образом:
 > 1. Перейдите в каталог python/bin, используемый webui.
 > 2. Выполните следующие команды:
-     >    ```
-     > ./python -m pip install chardet
-     > ./python -m pip install translators
-     > ./python -m pip install openai
-     > ./python -m pip install boto3
-     > ./python -m pip install aliyun-python-sdk-core
-     > ./python -m pip install aliyun-python-sdk-alimt
-     >    ```
+>    ```
+>    ./python -m pip install chardet
+>    ./python -m pip install fastapi
+>    ./python -m pip install PyExecJS
+>    ./python -m pip install lxml
+>    ./python -m pip install tqdm
+>    ./python -m pip install pathos
+>    ./python -m pip install cryptography
+>    ./python -m pip install openai
+>    ./python -m pip install boto3
+>    ./python -m pip install aliyun-python-sdk-core
+>    ./python -m pip install aliyun-python-sdk-alimt
+>    ```
 > 3. После завершения установки перезапустите webui.
 >
 > Подробнее см. [Установка пакетов](/ru/InstallationPackages.md)
