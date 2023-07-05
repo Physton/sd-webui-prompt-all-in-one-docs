@@ -2,5 +2,5 @@
 | :----: | :----: |
 | Paypal | [https://paypal.me/physton](https://paypal.me/physton) |
 | 爱发电 | [https://afdian.net/a/physton](https://afdian.net/a/physton) |
-| 支付宝 | `physton@163.com` |
+| 支付宝 | ![](./assets/images/donate-alipay.jpg) |
 | 微信赞赏 | ![](./assets/images/donate-wechat.jpg) |
