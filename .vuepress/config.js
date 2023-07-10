@@ -125,6 +125,7 @@ export default {
                                     '/About.md',
                                     '/AutomaticTranslation.md',
                                     '/Tooltip.md',
+                                    '/AutoInputPrompt.md',
                                 ]
                             },
                             '/History.md',
@@ -176,6 +177,7 @@ export default {
                                     '/ru/About.md',
                                     '/ru/AutomaticTranslation.md',
                                     '/ru/Tooltip.md',
+                                    '/ru/AutoInputPrompt.md',
                                 ]
                             },
                             '/ru/History.md',
@@ -228,6 +230,7 @@ export default {
                                     '/zh-CN/About.md',
                                     '/zh-CN/AutomaticTranslation.md',
                                     '/zh-CN/Tooltip.md',
+                                    '/zh-CN/AutoInputPrompt.md',
                                 ]
                             },
                             '/zh-CN/History.md',
@@ -280,6 +283,7 @@ export default {
                                     '/zh-TW/About.md',
                                     '/zh-TW/AutomaticTranslation.md',
                                     '/zh-TW/Tooltip.md',
+                                    '/zh-TW/AutoInputPrompt.md',
                                 ]
                             },
                             '/zh-TW/History.md',
