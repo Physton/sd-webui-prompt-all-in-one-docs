@@ -140,6 +140,7 @@ export default {
                         text: 'List of keywords', link: '', children: [
                             '/ListOfKeywords.md',
                             '/BatchOperation.md',
+                            '/GroupTags.md',
                         ]
                     },
                     {
@@ -192,6 +193,7 @@ export default {
                         text: 'Список ключевых слов', link: '', children: [
                             '/ru/ListOfKeywords.md',
                             '/ru/BatchOperation.md',
+                            '/ru/GroupTags.md',
                         ]
                     },
                     {
@@ -245,6 +247,7 @@ export default {
                         text: '关键词列表', link: '', children: [
                             '/zh-CN/ListOfKeywords.md',
                             '/zh-CN/BatchOperation.md',
+                            '/zh-CN/GroupTags.md',
                         ]
                     },
                     {
@@ -298,6 +301,7 @@ export default {
                         text: '關鍵詞列表', link: '', children: [
                             '/zh-TW/ListOfKeywords.md',
                             '/zh-TW/BatchOperation.md',
+                            '/zh-TW/GroupTags.md',
                         ]
                     },
                     {
