@@ -9,6 +9,8 @@ features:
     details: 提供更直观、强大的输入界面功能，提示词双语对照显示，一目了然。
   - title: 自动翻译
     details: 自动翻译提示词/反向提示词，支持多种语言。
+  - title: 几十种翻译服务
+    details: 几十个在线翻译，还有离线翻译模型。
   - title: 多国语言
     details: 支持世界上大部分国家语言的翻译，你可以使用任何语言输入提示词。
   - title: 历史记录
@@ -21,6 +23,10 @@ features:
     details: 框选多个提示词/反向提示词，一键删除、一键翻译、一键收藏等等。
   - title: ChatGPT
     details: 通过ChatGPT智能生成提示词。
+  - title: 提示词黑名单
+    details: 设置黑名单，自动过滤提示词。
+  - title: 一键添加提示词
+    details: 几千个提示词，点击即可使用。
   - title: ......
     details: 更多功能等你发现。
 ---

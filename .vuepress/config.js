@@ -120,6 +120,7 @@ export default {
                                 text: 'Settings', link: '', children: [
                                     '/TranslationApiConfiguration.md',
                                     '/FormatOfPrompts.md',
+                                    '/PromptBlacklist.md',
                                     '/ThemeStyle.md',
                                     '/Theme.md',
                                     '/About.md',
@@ -173,6 +174,7 @@ export default {
                                 text: 'Настройки', link: '', children: [
                                     '/ru/TranslationApiConfiguration.md',
                                     '/ru/FormatOfPrompts.md',
+                                    '/ru/PromptBlacklist.md',
                                     '/ru/ThemeStyle.md',
                                     '/ru/Theme.md',
                                     '/ru/About.md',
@@ -227,6 +229,7 @@ export default {
                                 text: '设置', link: '', children: [
                                     '/zh-CN/TranslationApiConfiguration.md',
                                     '/zh-CN/FormatOfPrompts.md',
+                                    '/zh-CN/PromptBlacklist.md',
                                     '/zh-CN/ThemeStyle.md',
                                     '/zh-CN/Theme.md',
                                     '/zh-CN/About.md',
@@ -281,6 +284,7 @@ export default {
                                 text: '設置', link: '', children: [
                                     '/zh-TW/TranslationApiConfiguration.md',
                                     '/zh-TW/FormatOfPrompts.md',
+                                    '/zh-TW/PromptBlacklist.md',
                                     '/zh-TW/ThemeStyle.md',
                                     '/zh-TW/Theme.md',
                                     '/zh-TW/About.md',

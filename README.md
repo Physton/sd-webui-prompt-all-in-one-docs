@@ -9,6 +9,8 @@ features:
     details: Provides a more intuitive and powerful input interface, with bilingual prompt displays for easy understanding.
   - title: Automatic Translation
     details: Automatically translates prompt/negative prompt, supporting multiple languages.
+  - title: Multiple Translation Services
+    details: Dozens of online translations and offline translation models available.
   - title: Multilingual Support
     details: Supports translation in most languages spoken around the world, allowing you to use prompts in any language.
   - title: History Records
@@ -21,6 +23,10 @@ features:
     details: Select multiple prompt/negative prompt with a box, one-click delete, translate, or bookmark them.
   - title: ChatGPT
     details: Generate prompts using ChatGPT.
+  - title: Forbidden Word Blacklist
+    details: Set up a blacklist to automatically filter forbidden words.
+  - title: Add Keywords with One Click
+    details: Thousands of keywords available, simply click to use.
   - title: ......
     details: More features waiting to be discovered.
 ---
