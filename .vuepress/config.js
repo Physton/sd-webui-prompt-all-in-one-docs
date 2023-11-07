@@ -58,6 +58,8 @@ export default {
             top: `
             <div>This project is developed in Physton. The documentation in multiple languages is translated using machine translation. Please excuse any translation errors.</div>
             <div>If you find this extension helpful, please give me a star on Github! You could also buy me a coffee: <a href="{donateUrl}">donate</a></div>
+            <div>&nbsp;</div>
+            <div>⭐️⭐️⭐️ This project has developed an independent standalone version that can run without relying on stable-diffusion-webui. It is lightweight and compact, focusing on editing and organizing prompt words. Visit <a href="https://github.com/Physton/sd-webui-prompt-all-in-one-app" target="_blank">Physton/sd-webui-prompt-all-in-one-app</a> for the tutorial on how to use it.</div>
             `
         },
         '/ru/': {
@@ -68,6 +70,8 @@ export default {
             top: `
             <div>Этот проект разработан Physton. Многоязычная документация основана на машинном переводе, пожалуйста, прошу прощения за возможные ошибки в переводе.</div>
             <div>Если вы считаете, что это расширение полезно, пожалуйста, поставьте мне звезду на Github! Вы также можете угостить меня чашкой кофе: <a href="{donateUrl}">donate</a></div>
+            <div>&nbsp;</div>
+            <div>⭐️⭐️⭐️ Этот проект разработал самостоятельную автономную версию, которая может работать без зависимости от stable-diffusion-webui. Он легкий и компактный, с фокусом на редактировании и организации ключевых слов. Посетите <a href="https://github.com/Physton/sd-webui-prompt-all-in-one-app" target="_blank">Physton/sd-webui-prompt-all-in-one-app</a> для просмотра руководства по использованию.</div>
             `
         },
         '/zh-CN/': {
@@ -78,7 +82,8 @@ export default {
             top: `
             <div>此项目由 Physton 开发。多国语言文档来自机器翻译，如有翻译错误请谅解。</div>
             <div>如果你觉得这个扩展有帮助，请在Github上给我一颗星！你也可以请我喝杯咖啡: <a href="{donateUrl}">donate</a></div>
-            <div>QQ群：820700336</div>
+            <div>&nbsp;</div>
+            <div>⭐️⭐️⭐️ 本项目已开发独立运行版本，不依赖 stable-diffusion-webui 既可运行。轻便小巧，专注于提示词的编辑和整理。前往 <a href="https://github.com/Physton/sd-webui-prompt-all-in-one-app" target="_blank">Physton/sd-webui-prompt-all-in-one-app</a> 查看使用教程。</div>
             `
         },
         '/zh-TW/': {
@@ -89,7 +94,8 @@ export default {
             top: `
             <div>此項目由 Physton 開發。多國語言文檔來自機器翻譯，如有翻譯錯誤請諒解。</div>
             <div>如果你覺得這個擴展有幫助，請在Github上給我一顆星！你也可以請我喝杯咖啡: <a href="{donateUrl}">donate</a></div>
-            <div>QQ群：820700336</div>
+            <div>&nbsp;</div>
+            <div>⭐️⭐️⭐️ 本專案已開發獨立運行版本，不依賴 stable-diffusion-webui 既可運行。輕巧小巧，專注於提示詞的編輯和整理。前往 <a href="https://github.com/Physton/sd-webui-prompt-all-in-one-app" target="_blank">Physton/sd-webui-prompt-all-in-one-app</a> 查看使用教程。</div>
             `
         },
     },
