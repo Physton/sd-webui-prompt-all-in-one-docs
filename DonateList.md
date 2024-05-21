@@ -3,6 +3,7 @@
 | China time | Nickname | Leave a message | Amount | Source |
 | :---: | :---: | :---: | :---: | :---: |
 | 2024-02-28 | way**@g**.com | Thank you for your work | $5 | Ko-fi |
+| 2024-05-22 | yua**@g**.com | 非常喜欢您的提示词工具，感谢您的辛勤工作。 | $5 | Buy me a coffee |
 
 
 ### CNY ￥:
