@@ -1,23 +1,27 @@
 {
-  "name": "sd-webui-prompt-all-in-one",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "vuepress dev ./",
-    "build": "vuepress build ./"
-  },
-  "author": "Physton",
-  "license": "MIT",
-  "devDependencies": {
-    "vuepress": "2.0.0-beta.63",
-    "@vuepress/plugin-back-to-top": "2.0.0-beta.63",
-    "vuepress-plugin-copy-code2": "2.0.0-beta.228",
-    "vuepress-plugin-full-text-search2": "0.4.0",
-    "vuepress-plugin-md-enhance": "2.0.0-beta.228",
-    "vuepress-plugin-search-pro": "2.0.0-beta.228",
-    "vuepress-plugin-sitemap2": "2.0.0-beta.228",
-    "@vuepress/client": "2.0.0-beta.63"
-  }
+    "name": "sd-webui-prompt-all-in-one",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "vuepress dev ./",
+        "build": "vuepress build ./"
+    },
+    "author": "Physton",
+    "license": "MIT",
+    "devDependencies": {
+        "@vuepress/bundler-vite": "^2.0.0-rc.26",
+        "@vuepress/plugin-back-to-top": "^2.0.0-rc.122",
+        "@vuepress/plugin-copy-code": "^2.0.0-rc.122",
+        "@vuepress/plugin-markdown-image": "^2.0.0-rc.121",
+        "@vuepress/plugin-markdown-include": "^2.0.0-rc.121",
+        "@vuepress/plugin-revealjs": "^2.0.0-rc.121",
+        "@vuepress/plugin-sitemap": "^2.0.0-rc.121",
+        "@vuepress/plugin-slimsearch": "^2.0.0-rc.121",
+        "@vuepress/theme-default": "^2.0.0-rc.121",
+        "sass-embedded": "^1.97.3",
+        "vuepress": "^2.0.0-rc.26",
+        "vuepress-plugin-social-share": "^2.0.0-beta.31"
+    }
 }

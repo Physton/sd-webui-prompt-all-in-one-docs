@@ -1,11 +1,14 @@
 import {defineUserConfig} from 'vuepress'
 import {viteBundler} from '@vuepress/bundler-vite'
 import {defaultTheme} from '@vuepress/theme-default'
-import {searchProPlugin} from "vuepress-plugin-search-pro"
-import {copyCodePlugin} from "vuepress-plugin-copy-code2"
-import {mdEnhancePlugin} from "vuepress-plugin-md-enhance"
-import fullTextSearchPlugin from "vuepress-plugin-full-text-search2"
-import {sitemapPlugin} from "vuepress-plugin-sitemap2"
+import {sitemapPlugin} from "@vuepress/plugin-sitemap"
+import { backToTopPlugin } from '@vuepress/plugin-back-to-top'
+import { slimsearchPlugin } from '@vuepress/plugin-slimsearch'
+import { revealJsPlugin } from '@vuepress/plugin-revealjs'
+import { markdownIncludePlugin } from '@vuepress/plugin-markdown-include'
+import { markdownImagePlugin } from '@vuepress/plugin-markdown-image'
+import { socialSharePlugin } from 'vuepress-plugin-social-share'
+import { copyCodePlugin } from '@vuepress/plugin-copy-code'
 
 import fs from 'fs'
 import path from 'path'
@@ -25,22 +28,38 @@ export default {
         vuePluginOptions: {},
     }),
     plugins: [
-        searchProPlugin({
-            indexContent: true
+        backToTopPlugin(),
+        // searchProPlugin({
+        //     indexContent: true
+        // }),
+        // copyCodePlugin(),
+        // fullTextSearchPlugin(),
+        slimsearchPlugin({
+            indexContent: true, // 是否索引内容
         }),
-        copyCodePlugin(),
-        mdEnhancePlugin({
-            // 启用导入支持
-            include: true,
-            // 启用图片懒加载
-            imgLazyload: true,
-            // 启用幻灯片
-            presentation: true,
-        }),
-        fullTextSearchPlugin(),
         sitemapPlugin({
             hostname: 'aiodoc.physton.com'
-        })
+        }),
+        revealJsPlugin({
+            // 插件选项
+        }),
+        markdownIncludePlugin({
+            // 选项
+        }),
+        markdownImagePlugin({
+            // 启用 figure
+            figure: true,
+            // 启用图片懒加载
+            lazyload: true,
+            // 启用图片标记
+            mark: true,
+            // 启用图片大小
+            size: true,
+        }),
+        socialSharePlugin(),
+        copyCodePlugin({
+            // options
+        }),
     ],
     async onPrepared(app) {
         const translate_apis = JSON.parse(fs.readFileSync(path.resolve(__dirname, 'translate_apis.json'), 'utf8'))
